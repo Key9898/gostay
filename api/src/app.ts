@@ -28,8 +28,10 @@ app.use(helmet())
 app.use(
   cors({
     origin: (origin, cb) => {
-      if (!origin || allowedOrigins.includes(origin)) return cb(null, true)
-      cb(new Error(`CORS: origin ${origin} not allowed`))
+      if (!origin || allowedOrigins.length === 0 || allowedOrigins.includes(origin)) {
+        return cb(null, true)
+      }
+      return cb(null, false)
     },
     credentials: true,
   }),
