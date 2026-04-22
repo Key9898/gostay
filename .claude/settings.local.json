@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\keych\\\\Development\\\\Projects\\\\Personal\\\\gostay\\\\src\" -Recurse | Where-Object { !$_.PSIsContainer } | Select-Object @{N='Path';E={$_.FullName.Replace\\('C:\\\\Users\\\\keych\\\\Development\\\\Projects\\\\Personal\\\\gostay\\\\',''\\)}})",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\keych\\\\Development\\\\Projects\\\\Personal\\\\gostay-api\\\\src\" -Recurse | Where-Object { !$_.PSIsContainer } | Select-Object @{N='Path';E={$_.FullName.Replace\\('C:\\\\Users\\\\keych\\\\Development\\\\Projects\\\\Personal\\\\gostay-api\\\\',''\\)}})",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\keych\\\\Development\\\\Projects\\\\Personal\\\\gostay\\\\src\" -Recurse | Format-Table @{N='File';E={$_.FullName.Replace\\('C:\\\\Users\\\\keych\\\\Development\\\\Projects\\\\Personal\\\\gostay\\\\src\\\\','src\\\\'\\)}}, Length)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\keych\\\\Development\\\\Projects\\\\Personal\\\\gostay-api\\\\src\" -Recurse | Format-Table @{N='File';E={$_.FullName.Replace\\('C:\\\\Users\\\\keych\\\\Development\\\\Projects\\\\Personal\\\\gostay-api\\\\src\\\\','src\\\\'\\)}}, Length)"
+    ]
+  }
+}

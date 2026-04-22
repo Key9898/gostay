@@ -1,0 +1,116 @@
+@import 'tailwindcss';
+@plugin "daisyui" {
+  themes: gostay --default;
+}
+
+@plugin "daisyui/theme" {
+  name: 'gostay';
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+  --color-base-100: #fbf6ee;
+  --color-base-200: #f4e9d8;
+  --color-base-300: #e8ddc9;
+  --color-base-content: #1f1a17;
+  --color-primary: #c2573a;
+  --color-primary-content: #ffffff;
+  --color-secondary: #4a6b57;
+  --color-secondary-content: #ffffff;
+  --color-accent: #e8a33d;
+  --color-accent-content: #1f1a17;
+  --color-neutral: #5c5149;
+  --color-neutral-content: #fbf6ee;
+  --color-info: #7e5b8a;
+  --color-success: #4a6b57;
+  --color-warning: #e8a33d;
+  --color-error: #9e4328;
+  --radius-selector: 9999px;
+  --radius-field: 0.75rem;
+  --radius-box: 1rem;
+  --border: 1px;
+}
+
+/* -------- Typography -------- */
+:root {
+  --font-serif: 'Fraunces', 'Noto Serif Myanmar', Georgia, serif;
+  --font-sans: 'Inter', 'Noto Sans Myanmar', 'Noto Sans Thai', system-ui, sans-serif;
+}
+
+html {
+  font-family: var(--font-sans);
+}
+body {
+  font-family: var(--font-sans);
+  font-feature-settings: 'ss01', 'cv11';
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+  font-optical-sizing: auto;
+}
+
+/* Editorial display — used on hero/section titles */
+.display {
+  font-family: var(--font-serif);
+  font-optical-sizing: auto;
+  font-variation-settings:
+    'SOFT' 50,
+    'WONK' 0;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 0.95;
+  text-wrap: balance;
+}
+
+/* Eyebrow — small uppercase label */
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+}
+
+/* Soft paper texture for hero backgrounds */
+.paper {
+  background-image:
+    radial-gradient(1200px 600px at 90% -10%, oklch(78% 0.14 78 / 0.18), transparent 60%),
+    radial-gradient(800px 500px at -10% 110%, oklch(60% 0.145 42 / 0.12), transparent 60%);
+  background-color: var(--color-base-100);
+}
+
+/* Warm card */
+.warm-card {
+  background: var(--color-base-100);
+  border: 1px solid oklch(28% 0.025 45 / 0.08);
+  border-radius: var(--radius-box);
+  transition: all 0.3s ease;
+}
+.warm-card:hover {
+  border-color: oklch(28% 0.025 45 / 0.18);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px -12px oklch(28% 0.025 45 / 0.18);
+}
+
+/* Utility: subtle divider line in secondary color */
+.rule {
+  height: 1px;
+  background: linear-gradient(to right, transparent, oklch(28% 0.025 45 / 0.2), transparent);
+}
+
+/* Prevent iOS Safari from zooming on input focus (requires font-size ≥ 16px) */
+@media (max-width: 768px) {
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  input[type='number'],
+  input[type='search'],
+  input[type='tel'],
+  input[type='url'],
+  input[type='date'],
+  textarea,
+  select {
+    font-size: 1rem;
+  }
+}

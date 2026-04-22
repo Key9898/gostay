@@ -1,0 +1,219 @@
+{
+  "common": {
+    "appName": "GoStay",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "none": "None",
+    "required": "Required",
+    "optional": "Optional",
+    "loadMore": "Load more"
+  },
+  "nav": {
+    "home": "Home",
+    "listings": "Listings",
+    "roommate": "Roommate",
+    "community": "Community",
+    "kitchen": "Kitchen",
+    "manage": "Manage",
+    "profile": "Profile",
+    "login": "Sign in",
+    "register": "Sign up",
+    "logout": "Log out"
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "loginSub": "Sign in to continue your search.",
+    "registerTitle": "Create your account",
+    "registerSub": "Start finding homes, roommates, and kitchens near you.",
+    "displayName": "Display name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "loginWithGoogle": "Continue with Google",
+    "or": "or",
+    "loginSuccess": "Signed in",
+    "logoutSuccess": "Signed out",
+    "registerSuccess": "Account created"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Find your place",
+      "titleA": "A warm",
+      "titleB": "home away",
+      "titleC": "from home, in Myanmar & Thailand.",
+      "sub": "Search thousands of listings, match with roommates, and order home-cooked meals — all in one community.",
+      "searchLocation": "City or neighborhood",
+      "searchType": "Apartment, studio, room…",
+      "popular": "Popular"
+    },
+    "verified": "Verified",
+    "stats": {
+      "listings": "Active listings",
+      "roommates": "Roommate matches",
+      "kitchens": "Home kitchens",
+      "verified": "Verified owners"
+    },
+    "pillarsSection": {
+      "eyebrow": "What GoStay does",
+      "title": "Four doors into the same neighborhood.",
+      "sub": "Stay, share, eat, and manage — built for renters, owners, and everyone in between."
+    },
+    "pillars": {
+      "stay": { "title": "Find a place to stay", "body": "Apartments, studios, and shared homes across Myanmar and Thailand." },
+      "roommate": { "title": "Meet your roommate", "body": "Compatibility-based matching with verified profiles." },
+      "kitchen": { "title": "Neighborhood kitchen", "body": "Home-cooked meals, delivered or ready for pickup nearby." },
+      "manage": { "title": "Manage rentals", "body": "Tenants, invoices, and maintenance — one calm dashboard." },
+      "community": { "title": "Community forum", "body": "Ask questions, share tips, and find your local crowd." }
+    },
+    "learnMore": "Learn more",
+    "featured": { "eyebrow": "Hand-picked", "title": "Featured stays", "viewAll": "View all listings" },
+    "viewStay": "View stay",
+    "kitchenCta": {
+      "eyebrow": "Neighborhood kitchen",
+      "title": "Tonight's dinner, from a neighbor's kitchen.",
+      "body": "Home-cooked mohinga, khao soi, curries, and comfort food — made by people on your block.",
+      "browse": "Browse kitchens",
+      "become": "Become a merchant"
+    },
+    "cta": {
+      "eyebrow": "Join the community",
+      "title": "Ready to find your next home?",
+      "body": "Free to join. Takes under a minute.",
+      "primary": "Create a free account",
+      "secondary": "Browse listings"
+    }
+  },
+  "listings": {
+    "eyebrow": "Stays",
+    "title": "Accommodation listings",
+    "sub": "{{count}} homes available near you",
+    "searchPlaceholder": "Search by city, neighborhood, or name",
+    "filters": { "city": "City", "price": "Price", "beds": "Bedrooms" },
+    "postListing": "Post a listing",
+    "loadMore": "Load more listings",
+    "createListing": "Create listing",
+    "editListing": "Edit listing",
+    "myListings": "My listings",
+    "savedListings": "Saved listings",
+    "price": "Price",
+    "priceMonthly": "per month",
+    "priceDaily": "per day",
+    "location": "Location",
+    "amenities": "Amenities",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "area": "Area",
+    "description": "Description",
+    "contact": "Contact owner",
+    "sendMessage": "Send message",
+    "noListings": "No listings found"
+  },
+  "roommate": {
+    "eyebrow": "Roommates",
+    "title": "Find your perfect roommate",
+    "sub": "Match with verified people who share your rhythm and budget.",
+    "matchCard": {
+      "title": "Take the compatibility quiz",
+      "body": "3 minutes, 12 questions. Better matches.",
+      "cta": "Start quiz"
+    },
+    "createPost": "Create post",
+    "lookingFor": "Looking for",
+    "offering": "Offering",
+    "budget": "Budget",
+    "preferences": "Preferences",
+    "moveInDate": "Move-in",
+    "duration": "Duration",
+    "viewProfile": "View profile",
+    "noPosts": "No posts found"
+  },
+  "community": {
+    "eyebrow": "Community",
+    "title": "Ask, share, belong.",
+    "sub": "Local knowledge from renters and owners on both sides of the border.",
+    "createPost": "New post",
+    "categories": { "all": "All", "general": "General", "market": "Market", "tips": "Tips", "qa": "Q&A" },
+    "upvote": "Upvote",
+    "downvote": "Downvote",
+    "comments": "Comments",
+    "noComments": "No comments yet",
+    "writeComment": "Write a comment…",
+    "noPosts": "No posts found",
+    "trending": "Trending",
+    "guidelines": {
+      "title": "Community guidelines",
+      "body": "Be kind. Be specific. No scams, no spam. Local languages welcome.",
+      "read": "Read guidelines"
+    }
+  },
+  "profile": {
+    "eyebrow": "Your profile",
+    "title": "Profile",
+    "editProfile": "Edit profile",
+    "myPosts": "Posts",
+    "myListings": "Listings",
+    "savedItems": "Saved",
+    "settings": "Settings",
+    "stats": { "listings": "Listings", "posts": "Posts", "saved": "Saved", "rating": "Rating" }
+  },
+  "manage": {
+    "eyebrow": "For owners & agents",
+    "title": "Property management",
+    "sub": "All your rentals, tenants, invoices, and maintenance in one place — built for landlords in Myanmar and Thailand.",
+    "addProperty": "Add property",
+    "tabs": { "overview": "Overview", "tenants": "Tenants", "invoices": "Invoices", "maintenance": "Maintenance" },
+    "kpi": { "properties": "Properties", "tenants": "Active tenants", "revenue": "Monthly revenue", "openRequests": "Open requests" },
+    "chart": { "title": "Revenue" },
+    "upcoming": { "title": "Upcoming" },
+    "table": { "tenant": "Tenant", "unit": "Unit", "rent": "Rent", "status": "Status", "since": "Since" }
+  },
+  "kitchen": {
+    "eyebrow": "Neighborhood kitchen",
+    "heroA": "Tonight's dinner,",
+    "heroB": "from a neighbor's",
+    "heroC": "kitchen.",
+    "sub": "Home-cooked Myanmar and Thai meals. Scan the QR in your lobby or order directly — pickup or delivery.",
+    "deliverTo": "Deliver to",
+    "searchDish": "Search dish or kitchen",
+    "chip": { "qr": "Scan QR in lobby", "delivery": "Delivery", "pickup": "Pickup" },
+    "cats": { "all": "All", "breakfast": "Breakfast", "curry": "Curry", "noodles": "Noodles", "snacks": "Snacks", "thai": "Thai", "vegetarian": "Vegetarian" },
+    "becomeMerchant": "Become a merchant",
+    "merchantCta": {
+      "eyebrow": "For home cooks",
+      "title": "Turn your kitchen into income.",
+      "body": "List your dishes, print QR codes for your block, and manage orders with a simple merchant dashboard — no restaurant required."
+    }
+  },
+  "footer": {
+    "tagline": "A warm community platform for homes, roommates, and neighborhood kitchens in Myanmar & Thailand.",
+    "discover": "Discover",
+    "forOwners": "For owners",
+    "newsletter": "Newsletter",
+    "newsletterDescription": "Local tips and new listings in your inbox, once a month.",
+    "subscribe": "Subscribe",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "currency": { "mmk": "Myanmar Kyat (Ks)", "thb": "Thai Baht (฿)", "usd": "US Dollar ($)" },
+  "language": { "my": "မြန်မာ", "en": "English", "th": "ไทย" }
+}

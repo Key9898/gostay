@@ -1,0 +1,1 @@
+import{j as s}from"./iframe-DeMr9wnz.js";import{c as o}from"./helpers-C8nBGPD0.js";function a({className:e}){return s.jsx("div",{className:o("animate-pulse rounded-md bg-base-300",e)})}export{a as S};

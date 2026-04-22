@@ -1,0 +1,10 @@
+# Backend — deployed separately on Railway
+api/
+
+# Docs
+docs/
+
+# Dev tools
+.trae/
+.cursorrules
+.windsurfrules

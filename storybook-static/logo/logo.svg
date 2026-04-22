@@ -1,0 +1,17 @@
+<svg width="260" height="70" viewBox="0 0 260 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Prominent G -->
+  <text x="10" y="55" font-family="Inter, system-ui, sans-serif" font-weight="900" font-size="56" fill="#4F46E5">G</text>
+  
+  <!-- Integrated Condo building (o) - Centering window grid -->
+  <rect x="52" y="15" width="28" height="38" rx="2" fill="#4F46E5"/>
+  <!-- Perfectly centered window grid calculations -->
+  <rect x="58" y="21" width="6" height="6" fill="white" rx="1"/>
+  <rect x="68" y="21" width="6" height="6" fill="white" rx="1"/>
+  <rect x="58" y="31" width="6" height="6" fill="white" rx="1"/>
+  <rect x="68" y="31" width="6" height="6" fill="white" rx="1"/>
+  <rect x="58" y="41" width="6" height="6" fill="white" rx="1"/>
+  <rect x="68" y="41" width="6" height="6" fill="white" rx="1"/>
+
+  <!-- Stay wordmark following closely -->
+  <text x="86" y="52" font-family="Inter, system-ui, sans-serif" font-weight="900" font-size="44" fill="#4F46E5">Stay</text>
+</svg>

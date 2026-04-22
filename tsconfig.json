@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@components": ["src/components"],
+      "@hooks/*": ["src/hooks/*"],
+      "@hooks": ["src/hooks"],
+      "@pages/*": ["src/pages/*"],
+      "@pages": ["src/pages"],
+      "@services/*": ["src/services/*"],
+      "@services": ["src/services"],
+      "@types/*": ["src/types/*"],
+      "@types": ["src/types"],
+      "@utils/*": ["src/utils/*"],
+      "@utils": ["src/utils"],
+      "@locales/*": ["src/locales/*"],
+      "@locales": ["src/locales"],
+      "@context/*": ["src/context/*"],
+      "@context": ["src/context"]
+    },
+    "strict": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
