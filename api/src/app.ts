@@ -19,8 +19,21 @@ initCloudinary()
 
 const app = express()
 
+const allowedOrigins = (process.env.CLIENT_URL ?? '')
+  .split(',')
+  .map((o) => o.trim())
+  .filter(Boolean)
+
 app.use(helmet())
-app.use(cors({ origin: process.env.CLIENT_URL }))
+app.use(
+  cors({
+    origin: (origin, cb) => {
+      if (!origin || allowedOrigins.includes(origin)) return cb(null, true)
+      cb(new Error(`CORS: origin ${origin} not allowed`))
+    },
+    credentials: true,
+  }),
+)
 app.use(morgan('dev'))
 app.use(express.json())
 
